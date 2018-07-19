@@ -1,0 +1,59 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: rgba(255, 255,255, 1);
+	text-align: center;
+	letter-spacing: 0.5em;
+	top: 15%;
+	background: linear-gradient(to right, #427B7E, #70A497);
+	
+	
+
+	}
+
+h1 {
+	font: 600 3.5em 'PT Sans', sans-serif;
+	color: rgba(255, 255,255, 1);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	width: 100%;
+	text-shadow: 2px 2px 5px black;
+
+}
+
+
+
+h3 {
+	font: 900 1.2em 'PT Sans', sans-serif;
+	color: rgba(255, 255,255, 1);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+	
+}
+
+hr {
+	width: 30%;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 80px;
+	height: 35px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+ }
+button {
+	margin-top: 20px;
+	height: 35px;
+	width: 200px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
