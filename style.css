@@ -17,8 +17,12 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	width: 100%;
-	text-shadow: 2px 2px 5px black;
+	text-shadow: 3px 3px 5px black;
 
+}
+
+h2 {
+	text-shadow: 2px 2px 5px black;
 }
 
 
@@ -29,6 +33,7 @@ h3 {
 	text-align: center;
 	text-transform: none;
 	letter-spacing: 0.01em;
+	text-shadow: 1px 1px 5px black;
 	
 }
 
@@ -36,6 +41,7 @@ hr {
 	width: 30%;
 	margin-top: 75px;
 	margin-bottom: 50px;
+	box-shadow: 1px 1px 5px black;
 }
 
 input[type="color"] {
@@ -46,7 +52,9 @@ input[type="color"] {
 	margin-right: 10px;
 	margin-left: 20px;
 	margin-bottom: 10px;
+	
  }
+
 button {
 	margin-top: 20px;
 	height: 35px;
@@ -55,5 +63,6 @@ button {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	box-shadow: 1px 1px 5px black;
 
 }
