@@ -1,4 +1,4 @@
-import {without} from "lodash";
+
 
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
@@ -7,7 +7,7 @@ var body = document.getElementById("gradient");
 
 function background() {
 	body.style.background = "Linear-gradient(to right," 
-	+ color1.value
+	+color1.value
 	+", "
 	+color2.value
 	+")";
@@ -41,7 +41,7 @@ function randomGradient() {
 	+randomNumber()
 	+")"
 	+", " 
-	+ "rgb("
+	+"rgb("
 	+randomNumber()
 	+", "
 	+randomNumber()
