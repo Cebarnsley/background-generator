@@ -62,7 +62,13 @@ button {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 5px;
 	box-shadow: 1px 1px 5px black;
+	background-color: white;
+	border: none;
+	border-radius: 30px;
+}
 
+button:focus {
+	outline:0;
 }
