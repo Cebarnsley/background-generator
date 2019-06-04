@@ -5,6 +5,8 @@ body {
 	letter-spacing: 0.5em;
 	top: 15%;
 	background: linear-gradient(to right, #427B7E, #70A497);
+	display: flex;
+	flex-direction: column;
 	
 	
 
@@ -15,14 +17,15 @@ h1 {
 	color: rgba(255, 255,255, 1);
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 0.5em;
-	text-shadow: 3px 3px 5px black;
-	margin-bottom: 150px;
+	font-size: 7vh;
+	text-shadow: 2px 2px 5px black;
+	margin-bottom: 110px;
 
 }
 
 h2 {
 	text-shadow: 2px 2px 5px black;
+	margin-bottom: 30px;
 }
 
 
@@ -32,16 +35,22 @@ h3 {
 	color: rgba(255, 255,255, 1);
 	text-align: center;
 	text-transform: none;
-	letter-spacing: 0.01em;
+	letter-spacing: 1px;
 	text-shadow: 1px 1px 5px black;
+	
+
+	
 	
 }
 
 hr {
 	width: 400px;
 	margin-top: 20px;
-	margin-bottom: 50px;
-	box-shadow: 1px 1px 5px black;
+	margin-bottom: 35px;
+	border-style: solid;
+	color: white;
+	
+	
 }
 
 input[type="color"] {
@@ -52,12 +61,14 @@ input[type="color"] {
 	margin-right: 10px;
 	margin-left: 20px;
 	margin-bottom: 10px;
+	border-radius: 3px;
+	
 	
  }
 
 button {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	height: 35px;
 	width: 200px;
 	font-family: 'PT Sans', sans-serif;
@@ -81,3 +92,12 @@ button:active {
 }
 
 
+.container {
+	margin-top: 8%;
+	
+}
+
+.css {
+	display: flex;
+  justify-content: center;
+}
